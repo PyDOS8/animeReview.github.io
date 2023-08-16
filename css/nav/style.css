@@ -1,0 +1,37 @@
+body{
+ background-color:black;
+}
+a{
+ color:white;
+}
+.nav{
+ background-color:#000;
+ height:50px;
+ width:auto;
+}
+a:hover{
+  color:orange;
+}
+noscript{
+  color:orange;
+}
+input{
+ width:97.9%;
+ position:absolute;
+ bottom:93.2%;
+}
+.nav p{
+ margin:0;
+ padding:0;
+ color:orange;
+}
+.signupLink{ 
+ position:absolute;
+ top:2.5%;
+ left:15%;
+}
+.homeLink{
+ position:absolute;
+ top:2.5%;
+ left:20.7%;
+}

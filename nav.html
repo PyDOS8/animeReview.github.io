@@ -16,7 +16,7 @@
         <ul>
     	 <li><a href="index.html" class="homeLink">Home</a></li>
          <script>
-		 if(!localStorage.getItem("username") || localStorage.getItem("usernameSet")){
+		 if(!localStorage.getItem("username") || !localStorage.getItem("usernameSet")){
 			 document.write("<li><a href='signup.html' class='signupLink'>Signup</a></li>");
 		 }else{
 			 document.write("<li><a href='https://github.com/clipyplusplus/myWebsite/new/main'>Create a review</a>");

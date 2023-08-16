@@ -10,7 +10,13 @@
    <div class='links'>
 	<ul>
          <li><a href='index.html'>Home</a></li>
-	 <li><a href='videos.html'>Your videos</a></li>
+	 <script>
+		 if(localStorage.getItem("username")){
+			 document.write("<li><a href='https://github.com/animeReview/animeReview.github.io/new/main'>Create a review</a>");
+		 }else{
+			 document.write("<li><a href='signup.html'>Signup</a></li>");
+		 }
+	</script>
        </ul>
    </div>
    <form action="javascript:search()">

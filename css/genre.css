@@ -1,0 +1,9 @@
+.genre{
+  background-color:black;
+}
+.genre a{
+  color:white;
+ }
+ .genre a:hover{  
+   color:orange;
+  }
